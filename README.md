@@ -9,7 +9,7 @@ We introduce the projects in FFTDL, transfer learning and Localization, configur
 ## 0.Introduction:
 Introduction of the file hierachy, take FFTDL as example:
 
-|.FFTDL
+.FFTDL
 
  |_ DUMP       ---file containing origin data
  
