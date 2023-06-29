@@ -9,9 +9,13 @@ We introduce the projects in FFTDL, transfer learning and Localization, configur
 ## 0.Introduction:
 Introduction of the file hierachy, take FFTDL as example:
 |.FFTDL
+
  _ DUMP       ---file containing origin data
+ 
  _ config     ---configuration file (.yaml)
+ 
  _ xx.py      --- customed py as library or executable
+ 
 
 
 ## 1. Configurate Environment:
@@ -20,7 +24,7 @@ Introduction of the file hierachy, take FFTDL as example:
 All the packages used have been written in this requirment document, including package version. 
 
 
-##2. preprocess the model:
+## 2. preprocess the model:
 In commmand line 
 #### python3 preprocess.py
 In a .ipynb file one can type %run preprocess.py
@@ -32,8 +36,11 @@ Example:
 #### python3 train_FFC_Res18.py 
 
 train the model, at the same time generate those files:
+
     training_monitoring :reconding the performance matrix
+    
     run/xx_model  :  training curve is recorded for certain model
+    
     checkpoints/xx_model: record the checkpoints in case of model interuptting.
     
 
@@ -53,4 +60,5 @@ ensemble all the models and get the best performance
 
 
 It is strongly suggested that change the .yaml instead of .py to change the hyperparameter.
+
 In .execution .ipynb file man can see the intermediate training processs and testing result.
