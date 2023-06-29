@@ -1,0 +1,13 @@
+classifiers:
+  stress_Res18:
+    checkpoint_dir: checkpoints/checkpoints_stress_Res18
+    checkpoint_name: model.ckpt-1600.pt
+    dataset_dir: ../../../metadata/stress
+    type: Res18
+  rest_Res18:
+    checkpoint_dir: checkpoints/checkpoints_rest_Res18
+    checkpoint_name: model.ckpt-100.pt
+    dataset_dir: ../../../metadata/rest
+    type: Res18
+
+    

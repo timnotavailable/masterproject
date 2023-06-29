@@ -1,0 +1,21 @@
+model:
+  checkpoint_dir: ./checkpoints_stress_FFC_res18
+  checkpoint_name: model.ckpt-XXX000.pt
+  load_model: false
+  type: FFC_res18
+optimizer:
+  lr: 0.001
+scheduler:
+  gamma: 0.2
+  step_size: 1500
+training_settings:
+  DA_enable: False
+  batch_size: 32
+  checkpoint_interval: 800
+  dataset_dir: ../../../metadata/stress
+  drop_last: False
+  n_steps: 50000
+  n_workers: 1
+early_stopper:
+  patience: 400
+  min_delta: 0

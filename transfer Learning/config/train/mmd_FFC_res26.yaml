@@ -1,0 +1,24 @@
+model:
+  checkpoint_dir: ./checkpoints/checkpoints_mmd_FFC_res26
+  checkpoint_name: model.ckpt-XXX000.pt
+  load_model: false
+  type: mmd_FFC_res26
+  pretrained_name: model.ckpt-900.pt
+  pretrained_path: ../../../checkpoints/checkpoints_FFC_res26
+  alpha: 1
+optimizer:
+  lr: 0.005
+scheduler:
+  gamma: 0.5
+  step_size: 2000
+training_settings:
+  DA_enable: false
+  batch_size: 64
+  checkpoint_interval: 500
+  dataset_dir: ../../../metadata
+  drop_last: false
+  n_steps: 10000
+  n_workers: 0
+early_stopper:
+  patience: 150
+  min_delta: 0

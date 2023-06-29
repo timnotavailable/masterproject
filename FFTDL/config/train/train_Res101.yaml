@@ -1,0 +1,21 @@
+model:
+  checkpoint_dir: ./checkpoints_Res101
+  checkpoint_name: model.ckpt-XXX000.pt
+  load_model: false
+  type: Res101
+optimizer:
+  lr: 0.001
+scheduler:
+  gamma: 0.5
+  step_size: 1000
+training_settings:
+  DA_enable: false
+  batch_size: 128
+  checkpoint_interval: 1000
+  dataset_dir: ../../../metadata
+  drop_last: false
+  n_steps: 50000
+  n_workers: 2
+early_stopper:
+  patience: 50
+  min_delta: 0

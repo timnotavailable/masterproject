@@ -1,0 +1,10 @@
+classifiers:
+  mmd_Res18:
+    checkpoint_dir: ./checkpoints_mmd_Res18
+    checkpoint_name: # model.ckpt-11817.pt    ##res18 .py
+    dataset_dir: ../../../metadata
+    type: mmd_Res18
+    pretrained_name: #model.ckpt-11817.pt    ## mmd.res18.pt
+    pretrained_path: ../../../checkpoints_mmd_Res18
+    alpha: 1
+    

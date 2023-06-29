@@ -1,0 +1,27 @@
+classifiers:
+  Res18:
+    checkpoint_dir: checkpoints/checkpoints_Res18
+    checkpoint_name: model.ckpt-1500.pt
+    dataset_dir: ../../../metadata
+    type: Res18
+  Res34:
+    checkpoint_dir: checkpoints/checkpoints_Res34
+    checkpoint_name: model.ckpt-700.pt
+    dataset_dir: ../../../metadata
+    type: Res34
+  FFC_res18:
+    checkpoint_dir: checkpoints/checkpoints_FFC_res18
+    checkpoint_name: model.ckpt-1700.pt
+    dataset_dir: ../../../metadata
+    type: FFC_res18
+  FFC_res26:
+    checkpoint_dir: checkpoints/checkpoints_FFC_res26
+    checkpoint_name: model.ckpt-900.pt
+    dataset_dir: ../../../metadata
+    type: FFC_res26
+
+  FFC_res34:
+    checkpoint_dir: checkpoints/checkpoints_FFC_res34
+    checkpoint_name: model.ckpt-1400.pt
+    dataset_dir: ../../../metadata
+    type: FFC_res34

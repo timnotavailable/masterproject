@@ -1,0 +1,57 @@
+classifiers:
+  mmd_Res18:
+    checkpoint_dir: ./checkpoints/checkpoints_mmd_Res18
+    checkpoint_name: model.ckpt-2700.pt   ##res18 .py
+    dataset_dir: ../../../metadata
+    type: mmd_Res18
+    pretrained_name: model.ckpt-1500.pt     ## mmd.res18.pt
+    pretrained_path: ../../../checkpoints/checkpoints_Res18
+    alpha: 1
+  mmd_Res34:
+    checkpoint_dir: ./checkpoints/checkpoints_mmd_Res34
+    checkpoint_name: model.ckpt-2328.pt   ##res34 .py
+    dataset_dir: ../../../metadata
+    type: mmd_Res34
+    pretrained_name: model.ckpt-700.pt     ## mmd.res18.pt
+    pretrained_path: ../../../checkpoints/checkpoints_Res34
+    alpha: 1  
+  mmd_Res50:
+    checkpoint_dir: ./checkpoints/checkpoints_mmd_Res50
+    checkpoint_name: model.ckpt-2800.pt   ##res34 .py
+    dataset_dir: ../../../metadata
+    type: mmd_Res50
+    pretrained_name: model.ckpt-700.pt     ## mmd.res18.pt
+    pretrained_path: ../../../checkpoints/checkpoints_Res50
+    alpha: 1   
+#   mmd_Naive_CNN:
+#     checkpoint_dir: ./checkpoints/checkpoints_mmd_Naive_CNN
+#     checkpoint_name: model.ckpt-3280.pt   ##res34 .py
+#     dataset_dir: ../../../metadata
+#     type: mmd_Naive_CNN
+#     pretrained_name: model.ckpt-700.pt     ## mmd.res18.pt
+#     pretrained_path: ../../../checkpoints/checkpoints_Naive_CNN
+#     alpha: 1
+  mmd_FFC_res18:
+    checkpoint_dir: ./checkpoints/checkpoints_mmd_FFC_res18
+    checkpoint_name: model.ckpt-10000.pt   ##res18 .py
+    dataset_dir: ../../../metadata
+    type: mmd_FFC_res18
+    pretrained_name: model.ckpt-1500.pt     ## mmd.res18.pt
+    pretrained_path: ../../../checkpoints/checkpoints_FFC_res18
+    alpha: 1 
+  mmd_FFC_res26:
+    checkpoint_dir: ./checkpoints/checkpoints_mmd_FFC_res26
+    checkpoint_name: model.ckpt-1500.pt  
+    dataset_dir: ../../../metadata
+    type: mmd_FFC_res26
+    pretrained_name: model.ckpt-1700.pt     ## mmd.res26.pt
+    pretrained_path: ../../../checkpoints/checkpoints_FFC_res26
+    alpha: 1 
+  mmd_FFC_res34:
+    checkpoint_dir: ./checkpoints/checkpoints_mmd_FFC_res34
+    checkpoint_name: model.ckpt-10000.pt   
+    dataset_dir: ../../../metadata
+    type: mmd_FFC_res34
+    pretrained_name: model.ckpt-1400.pt     ## mmd.res34.pt
+    pretrained_path: ../../../checkpoints/checkpoints_FFC_res34
+    alpha: 1 

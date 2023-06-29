@@ -1,0 +1,22 @@
+model:
+  checkpoint_dir: ./checkpoints_FFC_res18
+  checkpoint_name: model.ckpt-XXX000.pt
+  load_model: false
+  type: FFC_res18
+optimizer:
+  lr: 0.0001
+scheduler:
+  gamma: 0.1
+  step_size: 100
+training_settings:
+  DA_enable: false
+  batch_size: 64
+  checkpoint_interval: 100
+  dataset_dir: ../../../metadata
+  drop_last: false
+  n_steps: 3000
+  n_workers: 0
+early_stopper:
+  patience: 100
+  min_delta: 0
+

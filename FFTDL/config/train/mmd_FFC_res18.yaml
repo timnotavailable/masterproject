@@ -1,0 +1,24 @@
+model:
+  checkpoint_dir: ./checkpoints/checkpoints_mmd_FFC_res18
+  checkpoint_name: model.ckpt-XXX000.pt
+  load_model: false
+  type: mmd_Res18
+  pretrained_name: model.ckpt-11817.pt
+  pretrained_path: ../../../checkpoints/checkpoints_FFC_res18
+  alpha: 1
+optimizer:
+  lr: 0.001
+scheduler:
+  gamma: 0.5
+  step_size: 2000
+training_settings:
+  DA_enable: False
+  batch_size: 128
+  checkpoint_interval: 1000
+  dataset_dir: ../../../metadata
+  drop_last: False
+  n_steps: 40000
+  n_workers: 1
+early_stopper:
+  patience: 50
+  min_delta: 0

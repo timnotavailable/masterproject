@@ -1,0 +1,21 @@
+model:
+  checkpoint_dir: ./checkpoints/checkpoints_mmd_Naive_CNN
+  checkpoint_name: model.ckpt-XXX000.pt
+  load_model: false
+  type: mmd_Naive_CNN
+  pretrained_name: ###
+  pretrained_path: ../../../checkpoints/checkpoints_Naive_CNN
+  alpha: 1
+optimizer:
+  lr: 0.001
+scheduler:
+  gamma: 0.5
+  step_size: 2000
+training_settings:
+  DA_enable: false
+  batch_size: 128
+  checkpoint_interval: 1000
+  dataset_dir: ../../../metadata
+  drop_last: false
+  n_steps: 40000
+  n_workers: 2

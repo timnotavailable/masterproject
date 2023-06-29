@@ -1,0 +1,75 @@
+classifiers:
+  Naive_CNN:
+    checkpoint_dir: checkpoints/checkpoints_Naive_CNN
+    checkpoint_name: model.ckpt-3000.pt
+    dataset_dir: ../../../metadata
+    type: Naive_CNN
+  Res18:
+    checkpoint_dir: checkpoints/checkpoints_Res18
+    checkpoint_name: model.ckpt-1500.pt
+    dataset_dir: ../../../metadata
+    type: Res18
+  Res34:
+    checkpoint_dir: checkpoints/checkpoints_Res34
+    checkpoint_name: model.ckpt-700.pt
+    dataset_dir: ../../../metadata
+    type: Res34
+
+  Res50:
+    checkpoint_dir: checkpoints/checkpoints_Res50
+    checkpoint_name: model.ckpt-2800.pt 
+    dataset_dir: ../../../metadata
+    type: Res50
+#   Res101:
+#     checkpoint_dir: checkpoints/checkpoints_Res101
+#     checkpoint_name: 
+#     dataset_dir: ../../../metadata
+#     type: Res101
+#   Res152:
+#     checkpoint_dir: checkpoints/checkpoints_Res152
+#     checkpoint_name: 
+#     dataset_dir: ../../../metadata
+#     type: Res152
+  FFC_res18:
+    checkpoint_dir: checkpoints/checkpoints_FFC_res18
+    checkpoint_name: model.ckpt-1700.pt
+    dataset_dir: ../../../metadata
+    type: FFC_res18
+  FFC_res26:
+    checkpoint_dir: checkpoints/checkpoints_FFC_res26
+    checkpoint_name: model.ckpt-900.pt
+    dataset_dir: ../../../metadata
+    type: FFC_res26
+
+  FFC_res34:
+    checkpoint_dir: checkpoints/checkpoints_FFC_res34
+    checkpoint_name: model.ckpt-1400.pt
+    dataset_dir: ../../../metadata
+    type: FFC_res34
+#   FFC_res50:
+#     checkpoint_dir: checkpoints/checkpoints_FFC_res50
+#     checkpoint_name: 
+#     dataset_dir: ../../../metadata
+#     type: FFC_res50
+
+#   FFC_res101:
+#     checkpoint_dir: checkpoints/checkpoints_FFC_res101
+#     checkpoint_name: 
+#     dataset_dir: ../../../metadata
+#     type: FFC_res101
+#   Efficientnet_v2_s:
+#     checkpoint_dir: checkpoints/checkpoints_Efficientnet_v2_s
+#     checkpoint_name: 
+#     dataset_dir: ../../../metadata
+#     type: Efficientnet_v2_s
+#   Efficientnet_v2_m:
+#     checkpoint_dir: checkpoints/checkpoints_Efficientnet_v2_s
+#     checkpoint_name: 
+#     dataset_dir: ../../../metadata
+#     type: Efficientnet_v2_s
+#   Efficientnet_v2_l:
+#     checkpoint_dir: checkpoints/checkpoints_Efficientnet_v2_s
+#     checkpoint_name: 
+#     dataset_dir: ../../../metadata
+#     type: Efficientnet_v2_s
+    

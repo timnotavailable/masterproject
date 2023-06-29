@@ -1,0 +1,12 @@
+torch
+numpy
+pandas
+joblib
+matplotlib
+scikit-learn
+tqdm
+hydra-core
+torchvision
+tensorboard
+scipy
+grad-cam
