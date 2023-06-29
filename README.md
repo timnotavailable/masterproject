@@ -8,13 +8,14 @@ We introduce the projects in FFTDL, transfer learning and Localization, configur
 
 ## 0.Introduction:
 Introduction of the file hierachy, take FFTDL as example:
+
 |.FFTDL
 
- _ DUMP       ---file containing origin data
+ |_ DUMP       ---file containing origin data
  
- _ config     ---configuration file (.yaml)
+ |_ config     ---configuration file (.yaml)
  
- _ xx.py      --- customed py as library or executable
+ |_ xx.py      --- customed py as library or executable
  
 
 
