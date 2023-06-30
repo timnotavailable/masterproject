@@ -21,13 +21,13 @@ Localization:
 
 
 # Abstract
-In this thesis, it has been firstly introduced a special way to resample the polar map. Then in the next chapter we again regrouped the data and performed Fourier transform. Based on those spatial and Fourier series, we set up a group of statistical estimators and performed hypothesis testing to demonstrate the significant difference between normal and abnormal patients and  superior performance of our statistical estimators over \ac{TID}.
+In this thesis, it has been firstly introduced a special way to resample the polar map. Then in the next chapter we again regrouped the data and performed Fourier transform. Based on those spatial and Fourier series, we set up a group of statistical estimators and performed hypothesis testing to demonstrate the significant difference between normal and abnormal patients and  superior performance of our statistical estimators over TID.
 
-Then, we utilized the previous chapter's conclusion and designed a dedicated neural network based on Resnet. With the help of the 5 models ensemble, we reached a state-of-art agreement(91\%) and specificity (100\%) even with a small dataset. Based on different agency, combined model could acquire different results that we want to trade off.
+Then, we utilized the previous chapter's conclusion and designed a dedicated neural network based on Resnet. With the help of the 5 models ensemble, we reached a state-of-art agreement(91.49\%) and specificity (100\%) even with a small dataset. Based on different agency, combined model could acquire different results that we want to trade off.
 
 What's more, we verified the effective clinical parameter and explored which clinical parameters could  be added into neural networks under our patients distribution.
 
-Last but the most pivotal is, we finally explored and set up another localization evaluation system  based on  bayesian statistics in contrast to frequentist one. We compared with conventional \ac{TPD} and analysed the promising advantages but also pitfalls of our new method.
+Last but the most pivotal is, we finally explored and set up another localization evaluation system  based on  bayesian statistics in contrast to frequentist one. We compared with conventional TPD and analysed the promising advantages but also pitfalls of our new method.
 
 We firmly believed that our work have the potential to become the new generation of evaluation and interpretation of stress and rest polar map with the help of modern deep learning technique.
 
