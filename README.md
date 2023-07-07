@@ -35,9 +35,9 @@ We firmly believed that our work have the potential to become the new generation
 ## 0.Introduction:
 
 Origin data is stored in "DUMP" files, which contained .image.bin and .txt files which record patients' information.
-All of the .ipynb file is executatble step by step.
+All of the .ipynb file is executatble and one can see the running result
 
-We introduce the projects in FFTDL, transfer learning and Localization, configured with  hydra
+We introduce the projects in FFTDL, transfer learning and Localization, configured with  hydra, the training part is coded with hydra, however the localization and frequency analysis mostly the code is executed on notebook.
 
 
 Introduction of the file hierachy, take FFTDL as example:
