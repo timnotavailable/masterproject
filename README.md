@@ -1,7 +1,6 @@
 # masterproject
-All of the clean code in master thesis. The master thesis comprises 4 parts:   First 3 parts are classification , the  last  exciting part is localization.
+All of the clean code in master thesis. The master thesis comprises 4 parts:   First 3 parts are classification , the  last exciting part is localization.
 
-This project is going to be posted to journal " Artificial Intelligence in medicine".
 
 # Highlight (Snipped)
 
